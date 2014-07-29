@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<style name="SegmentedRadioButtonStyle" parent="@android:style/Widget.CompoundButton.RadioButton" >
+		<item name="android:button" >@null</item>
+		<item name="android:minHeight" >32dp</item>
+		<item name="android:gravity" >center</item>
+		<item name="android:singleLine" >true</item>
+		
+		<item name="android:textColor" >@color/sctl_radiobutton_textcolor</item>
+		
+<!-- 		<item name="android:paddingTop" >@dimen/sctl_radiobutton_paddingTop</item> -->
+<!-- 		<item name="android:paddingRight" >@dimen/sctl_radiobutton_paddingRight</item> -->
+<!-- 		<item name="android:paddingBottom" >@dimen/sctl_radiobutton_paddingBottom</item> -->
+<!-- 		<item name="android:paddingLeft" >@dimen/sctl_radiobutton_paddingLeft</item> -->
+	</style>
+	
+</resources>

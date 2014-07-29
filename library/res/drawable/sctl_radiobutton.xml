@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:state_pressed="true">
+		<shape>
+  		<solid android:color="@color/sctl_radiobutton_pressed_color" />
+      <stroke android:width="1dp" android:color="@color/sctl_radiobutton_pressed_stroke_color" />
+      <corners android:radius="@dimen/sctl_radiobutton_radius" />
+    </shape>
+  </item>
+	<item android:state_checked="true">
+		<shape>
+  		<solid android:color="@color/sctl_radiobutton_checked_color" />
+      <stroke android:width="1dp" android:color="@color/sctl_radiobutton_checked_stroke_color" />
+      <corners android:radius="@dimen/sctl_radiobutton_radius" />
+    </shape>
+  </item>
+  <item android:state_enabled="false" >
+  	<shape>
+  		<solid android:color="@color/sctl_radiobutton_disabled_color" />
+      <stroke android:width="1dp" android:color="@color/sctl_radiobutton_disabled_stroke_color" />
+      <corners android:radius="@dimen/sctl_radiobutton_radius" />
+    </shape>
+  </item>
+  <item>
+ 		<shape>
+      <solid android:color="@color/sctl_radiobutton_color" />
+      <stroke android:width="1dp" android:color="@color/sctl_radiobutton_stroke_color" />
+      <corners android:radius="@dimen/sctl_radiobutton_radius" />
+    </shape>
+  </item>    
+</selector>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+	<dimen name="sctl_radiobutton_radius" >5dp</dimen>
+    
+	<dimen name="sctl_radiobutton_paddingTop" >3dp</dimen>
+	<dimen name="sctl_radiobutton_paddingRight" >7dp</dimen>
+	<dimen name="sctl_radiobutton_paddingBottom" >3dp</dimen>
+	<dimen name="sctl_radiobutton_paddingLeft" >7dp</dimen>
+	
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>	
+	<color name="sctl_radiobutton_textColor" >#222222</color>
+	<color name="sctl_radiobutton_textColor_checked" >#fefefe</color>
+	
+	<color name="sctl_radiobutton_color" >#cdcdcd</color>
+	<color name="sctl_radiobutton_stroke_color" >#aaaaaa</color>
+	
+	<color name="sctl_radiobutton_checked_color" >#aaaaaa</color>
+	<color name="sctl_radiobutton_checked_stroke_color" >#999999</color>
+	
+	<color name="sctl_radiobutton_pressed_color" >#eeeeee</color>
+	<color name="sctl_radiobutton_pressed_stroke_color" >#cdcdcd</color>
+	
+	<color name="sctl_radiobutton_disabled_color" >#eeeeee</color>
+	<color name="sctl_radiobutton_disabled_stroke_color" >#cdcdcd</color>
+</resources>

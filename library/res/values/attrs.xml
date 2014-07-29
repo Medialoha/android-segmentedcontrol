@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	    
+	<declare-styleable name="CompoundButton" >
+		<attr name="android:button" />
+		
+		<attr name="android:padding" />
+		<attr name="android:paddingTop" />
+		<attr name="android:paddingRight" />
+		<attr name="android:paddingBottom" />
+		<attr name="android:paddingLeft" />
+	</declare-styleable>
+	
+	<attr name="SegmentedRadioButtonStyle" format="reference" />
+	
+	<attr name="SegmentedControlTextAppearence" />
+	
+</resources>

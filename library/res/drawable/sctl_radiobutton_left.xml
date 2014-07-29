@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!-- PRESSED -->
+	<item android:state_pressed="true">
+	  <layer-list>
+			<item>
+			  <shape android:shape="rectangle" >
+			  	<solid android:color="@color/sctl_radiobutton_pressed_stroke_color" />
+			    <corners android:topLeftRadius="@dimen/sctl_radiobutton_radius" android:bottomLeftRadius="@dimen/sctl_radiobutton_radius" />
+			  </shape>
+			</item>
+			<item android:bottom="3px" android:left="1px" >
+			  <shape android:shape="rectangle" >
+			  	<solid android:color="@color/sctl_radiobutton_pressed_color" />
+			    <corners android:topLeftRadius="@dimen/sctl_radiobutton_radius" android:bottomLeftRadius="@dimen/sctl_radiobutton_radius" />
+			  </shape>
+			</item>
+	  </layer-list>
+  </item>
+
+  <!-- CHECKED -->
+	<item android:state_checked="true">
+	  <layer-list>
+			<item>
+			  <shape android:shape="rectangle" >
+			  	<solid android:color="@color/sctl_radiobutton_checked_stroke_color" />
+			    <corners android:topLeftRadius="@dimen/sctl_radiobutton_radius" android:bottomLeftRadius="@dimen/sctl_radiobutton_radius" />
+			  </shape>
+			</item>
+			<item android:bottom="3px" android:left="1px" >
+			  <shape android:shape="rectangle" >
+			  	<solid android:color="@color/sctl_radiobutton_checked_color" />
+			    <corners android:topLeftRadius="@dimen/sctl_radiobutton_radius" android:bottomLeftRadius="@dimen/sctl_radiobutton_radius" />
+			  </shape>
+			</item>
+	  </layer-list>
+  </item>
+  
+  <!-- DISABLED -->
+  <item android:state_enabled="false" >
+	  <layer-list>
+			<item>
+			  <shape android:shape="rectangle" >
+			  	<solid android:color="@color/sctl_radiobutton_disabled_stroke_color" />
+			    <corners android:topLeftRadius="@dimen/sctl_radiobutton_radius" android:bottomLeftRadius="@dimen/sctl_radiobutton_radius" />
+			  </shape>
+			</item>
+			<item android:bottom="3px" android:left="1px" >
+			  <shape android:shape="rectangle" >
+			  	<solid android:color="@color/sctl_radiobutton_disabled_color" />
+			    <corners android:topLeftRadius="@dimen/sctl_radiobutton_radius" android:bottomLeftRadius="@dimen/sctl_radiobutton_radius" />
+			  </shape>
+			</item>
+	  </layer-list>
+  </item>
+  
+  <!-- DEFAULT -->
+  <item>
+	  <layer-list>
+			<item>
+			  <shape android:shape="rectangle" >
+			  	<solid android:color="@color/sctl_radiobutton_stroke_color" />
+			    <corners android:topLeftRadius="@dimen/sctl_radiobutton_radius" android:bottomLeftRadius="@dimen/sctl_radiobutton_radius" />
+			  </shape>
+			</item>
+			<item android:bottom="3px" android:left="1px" >
+			  <shape android:shape="rectangle" >
+			  	<solid android:color="@color/sctl_radiobutton_color" />
+			    <corners android:topLeftRadius="@dimen/sctl_radiobutton_radius" android:bottomLeftRadius="@dimen/sctl_radiobutton_radius" />
+			  	<padding android:top="@dimen/sctl_radiobutton_paddingTop" android:bottom="@dimen/sctl_radiobutton_paddingBottom"
+			  	    			android:left="@dimen/sctl_radiobutton_paddingLeft" android:right="@dimen/sctl_radiobutton_paddingRight" />
+			  </shape>
+			</item>
+	  </layer-list>
+  </item>    
+</selector>
